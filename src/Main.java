@@ -14,7 +14,7 @@ public class Main {
 
 //        System.out.println(randomNumber);
 
-        for(int i=0; i<10;i++){
+        for(int i=10; i>0;i--){
             System.out.println("You have " + i + " guesses -> try again");
             int guess = scanner.nextInt();
 
@@ -34,6 +34,7 @@ public class Main {
             System.out.println("You Won");
         }else {
             System.out.println("Looser");
+            System.out.println("The number is " + randomNumber);
         }
     }
 }
